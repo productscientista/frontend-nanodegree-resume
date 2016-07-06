@@ -1,3 +1,4 @@
 /*
-$("#main").append("Claire Morin");
+
  */
+ $("#main").append("Claire Morin");
