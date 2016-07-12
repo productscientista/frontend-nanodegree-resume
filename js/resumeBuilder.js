@@ -52,7 +52,7 @@ $("#header").append(HTMLskillsStart);
 $("#header").append(formattedSkills);
 
 
-var work = {};
+/*var work = {};
 work.position = "Product Owner";
 work.employer = "Wakanda";
 work.yearsWorked = "2016-07";
@@ -61,9 +61,9 @@ var formattedEmployer = HTMLworkEmployer.replace("%data%",work.employer);
 var formattedTitle = HTMLworkTitle.replace("%data%",work.position);
 var formattedWorkDates = HTMLworkDates.replace("%data%",work.yearsWorked);
 var formattedLocation = HTMLworkLocation.replace("%data%", work.city);
-
+*/
 var education = {
-	"schools"[
+	"schools":[
 	{
 		"name": "Université Paris 6",
 		"city": "Paris",
@@ -88,13 +88,11 @@ var education = {
 		]
 };
 
-$("#workExperience").append(HTMLworkStart);
-$("#workExperience").append(formattedTitle);
-$("#workExperience").append(formattedEmployer);
-$("#workExperience").append(formattedLocation);
+//$("#workExperience").append(HTMLworkStart);
+//$("#workExperience").append(formattedTitle);
+//$("#workExperience").append(formattedEmployer);
+//$("#workExperience").append(formattedLocation);
 
 //$("#education").append(HTMLschoolStart);
 //$("#main").append(education.name);
 //$("#main").append(work["position"]);
-
-
